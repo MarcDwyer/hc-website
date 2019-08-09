@@ -1,0 +1,98 @@
+.intro {
+    background-color: #4D9AD4;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    color: #eee;
+
+    .sub-intro {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+        .text {
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+            order: 0;
+            width: 45%;
+
+            h3 {
+                font-size: 36px;
+                margin: 0;
+
+                .github {
+                    margin-left: 15px;
+                    font-size: 38px;
+                    cursor: pointer;
+
+                    &:hover {
+                        opacity: .85;
+                    }
+                }
+            }
+
+            span {
+                font-size: 22px;
+            }
+
+            .links {
+                margin-top: 25px;
+                display: flex;
+
+                .button {
+                    text-align: center;
+                    padding: 15px 15px;
+                    border: none;
+                    color: #eee;
+                    text-decoration: none;
+
+                    &:hover {
+                        opacity: .9;
+                    }
+                }
+
+                .download {
+                    background-color: #FF4C4C;
+                    width: 185px;
+                }
+
+                .donate {
+                    background-color:#66B266;
+                    margin-left: 25px;
+                }
+            }
+        }
+
+        img {
+            height: auto;
+            order: 1;
+            width: 50%;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 1350px) {
+            width: 100%;
+            flex-direction: column;
+            .text {
+                width: 85%;
+                margin: auto;
+            }
+            img {
+                margin: 35px auto auto auto; 
+                width: 75%;
+            }
+        }
+
+        @media (max-width: 550px) {
+            .text {
+                width: 98%;
+            }
+
+            img {
+                width: 90%;
+            }
+        }
+    }
+}

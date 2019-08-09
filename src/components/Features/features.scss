@@ -1,0 +1,25 @@
+.features {
+    display: flex;
+
+    .sub-features {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 15px;
+        h4 {
+            font-size: 36px;
+            padding: 0;
+            margin: 0;
+        }
+
+        p {
+            display: flex;
+            flex-direction: column;
+
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+}
