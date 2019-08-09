@@ -1,5 +1,4 @@
 import React from 'react'
-import { APP_IMAGE } from '../Main/main'
 import { useSpring, animated } from 'react-spring'
 import { FaGithub } from 'react-icons/fa'
 import './intro.scss'
@@ -39,7 +38,7 @@ const Intro = () => {
                         >Donate via Paypal</a>
                     </div>
                 </animated.div>
-                <animated.img src={APP_IMAGE} alt="app" style={imgDiv} />
+                <animated.img src={'https://fetchappbucket.s3.us-east-2.amazonaws.com/myimages/hc-demo2.gif'} alt="app" style={imgDiv} />
             </div>
         </div>
     )

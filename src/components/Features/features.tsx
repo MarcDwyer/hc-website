@@ -13,7 +13,7 @@ const Features = () => {
                 </ul>
                 <p>
                     <span>Unfortunately, there is no MacOS version. </span>
-                    I do not currently own a MacOS device (they are soooo expensive). However, I do plan on getting one in the future. 
+                    I do not currently own a MacOS device (they are soooo expensive). However, I do plan on getting one in the future.
                 </p>
             </div>
         </div>
