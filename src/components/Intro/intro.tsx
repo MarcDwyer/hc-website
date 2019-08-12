@@ -3,6 +3,9 @@ import { useSpring, animated } from 'react-spring'
 import { FaGithub } from 'react-icons/fa'
 import './intro.scss'
 
+
+const VERSION = '1.1.1'
+
 const Intro = () => {
     const textDiv = useSpring({
         transform: "translateX(0)",
@@ -18,7 +21,7 @@ const Intro = () => {
         <div className="intro">
             <div className="sub-intro">
                 <animated.div className="text" style={textDiv}>
-                    <h3>Hue Controller
+                    <h3>Hue Desktop Controller
                         <FaGithub
                             className="github"
                             onClick={() => window.open('https://github.com/MarcDwyer/electron-hue-controller')}
@@ -28,7 +31,7 @@ const Intro = () => {
                     <div className="links">
                         <a
                             className="download button"
-                            href="https://github.com/MarcDwyer/electron-hue-controller/releases/download/1.1.1/Hue.Controller.Setup.1.1.1.exe"
+                            href={`https://github.com/MarcDwyer/electron-hue-controller/releases/download/${VERSION}/Hue.Controller.Setup.${VERSION}.exe`}
                         >Download for Windows</a>
                         <a
                             className="donate button"

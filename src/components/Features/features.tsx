@@ -10,6 +10,8 @@ const Features = () => {
                     <li>Change your lights colors, brightness, power status and name!</li>
                     <li>Really cool color selector and transitions to match color changes</li>
                     <li>Free and open source!</li>
+                    <li>Feels weird not having more bullet points</li>
+                    <li>This is better</li>  
                 </ul>
                 <p>
                     <span>Unfortunately, there is no MacOS version. </span>
