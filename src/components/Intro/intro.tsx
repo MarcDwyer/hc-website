@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa'
 import './intro.scss'
 
 
-const VERSION = '1.1.1'
+const VERSION = '1.2'
 
 const Intro = () => {
     const textDiv = useSpring({
