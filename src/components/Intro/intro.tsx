@@ -31,14 +31,12 @@ const Intro = () => {
                     <div className="links">
                         <a
                             className="download button"
-                            href={`https://github.com/MarcDwyer/electron-hue-controller/releases/download/${VERSION}/Hue.Controller.Setup.${VERSION}.exe`}
+                            href={`https://github.com/MarcDwyer/hue-desktop-controller/releases/download/1.3/Hue.Controller.0.0.1.msi`}
                         >Download for Windows</a>
                         <a
                             className="donate button"
-                            href="https://paypal.me/marcdwyer1738?locale.x=en_US"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                        >Donate via Paypal</a>
+                            href="https://github.com/MarcDwyer/hue-desktop-controller/releases/download/1.3/huecontroller_0.0.1_amd64.snap"
+                        >Download for Linux</a>
                     </div>
                 </animated.div>
                 <animated.img src={'https://fetchappbucket.s3.us-east-2.amazonaws.com/myimages/hc-demo2.gif'} alt="app" style={imgDiv} />
